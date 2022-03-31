@@ -1,0 +1,328 @@
+.sb-root {
+	position: relative;
+	overflow: scroll;
+}
+
+.sb-svg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+.sb-layer-hide {
+	display: none;
+}
+
+.sb-event-ignore {
+	pointer-events: none;
+}
+
+.sb-scrollbar::-webkit-scrollbar {
+	background-color: #fff;
+	width: 16px;
+}
+
+.sb-scrollbar::-webkit-scrollbar-track {
+	background-color: #fff;
+}
+
+.sb-scrollbar::-webkit-scrollbar-thumb {
+	background-color: #babac0;
+	border-radius: 16px;
+	border: 4px solid #fff;
+}
+
+.sb-scrollbar::-webkit-scrollbar-button {
+	display: none;
+}
+
+.sb-image {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.sb-image .sb-image-img {
+	width: 100%;
+	height: 100%;
+}
+
+.sb-video {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.sb-video .sb-video-video {
+	width: 100%;
+	height: 100%;
+}
+
+.sb-skeleton {
+}
+
+.sb-skeleton-background rect {
+	fill: #00000000;
+	stroke: #00000000;
+}
+
+.sb-skeleton-background.sb-focus rect {
+	fill: #00000000;
+	stroke: #000000;
+}
+
+.sb-skeleton-background.sb-focus .sb-skeleton-background-rect1 {
+	fill: #00000000;
+	stroke: #528ada;
+}
+
+.sb-skeleton-background.sb-focus .sb-skeleton-background-rect2 {
+	fill: #00000000;
+	stroke: #FFFFFF;
+	stroke-dasharray: 5px;
+}
+
+.sb-skeleton-background-center {
+	pointer-events: none;
+}
+
+.sb-skeleton-background-center-mark {
+	stroke: #FF0000;
+}
+
+.sb-joint {
+	fill: #cccccc;
+	stroke: #000000;
+}
+
+.sb-joint.sb-focus {
+	stroke: #FF0000;
+}
+
+.sb-link {
+	stroke: #000000;
+	stroke-width: 2;
+	stroke-linecap: round;
+}
+
+.sb-skeleton.sb-skeleton-color-1 .sb-link {
+	stroke: #000000;
+}
+
+.sb-skeleton.sb-skeleton-color-1 .sb-link {
+	stroke: #FF0000;
+}
+
+.sb-skeleton.sb-skeleton-color-2 .sb-link {
+	stroke: #770000;
+}
+
+.sb-skeleton.sb-skeleton-color-3 .sb-link {
+	stroke: #00FF00;
+}
+
+.sb-skeleton.sb-skeleton-color-4 .sb-link {
+	stroke: #007700;
+}
+
+.sb-skeleton.sb-skeleton-color-5 .sb-link {
+	stroke: #0000FF;
+}
+
+.sb-skeleton.sb-skeleton-color-6 .sb-link {
+	stroke: #000077;
+}
+
+.sb-skeleton.sb-skeleton-color-7 .sb-link {
+	stroke: #FFFF00;
+}
+
+.sb-skeleton.sb-skeleton-color-8 .sb-link {
+	stroke: #777700;
+}
+
+.sb-skeleton.sb-skeleton-color-9 .sb-link {
+	stroke: #FF00FF;
+}
+
+.sb-skeleton.sb-skeleton-color-10 .sb-link {
+	stroke: #770077;
+}
+
+.sb-skeleton.sb-skeleton-color-11 .sb-link {
+	stroke: #00FFFF;
+}
+
+.sb-skeleton.sb-skeleton-color-12 .sb-link {
+	stroke: #007777;
+}
+
+.sb-link-background {
+	stroke: #00000044;
+	stroke-width: 20;
+	stroke-linecap: round;
+}
+
+.sb-rect {
+}
+
+.sb-rect-rect {
+	fill: #00000099;
+}
+
+.sb-rect-description-background {
+}
+
+.sb-rect-description-text {
+	pointer-events: none;
+	user-select: none;
+}
+
+.sb-rect.sb-rect-color .sb-rect-rect {
+}
+
+.sb-rect.sb-rect-color .sb-rect-description-background {
+}
+
+.sb-rect.sb-rect-color-0 .sb-rect-rect,
+.sb-rect.sb-rect-color-0 .sb-rect-description-background {
+	stroke: #000000;
+	fill: #00000077;
+}
+
+.sb-rect.sb-rect-color-1 .sb-rect-rect,
+.sb-rect.sb-rect-color-1 .sb-rect-description-background {
+	stroke: #FF0000;
+	fill: #FF000077;
+}
+
+.sb-rect.sb-rect-color-2 .sb-rect-rect,
+.sb-rect.sb-rect-color-2 .sb-rect-description-background {
+	stroke: #770000;
+	fill: #77000077;
+}
+
+.sb-rect.sb-rect-color-3 .sb-rect-rect,
+.sb-rect.sb-rect-color-3 .sb-rect-description-background {
+	stroke: #00FF00;
+	fill: #00FF0077;
+}
+
+.sb-rect.sb-rect-color-4 .sb-rect-rect,
+.sb-rect.sb-rect-color-4 .sb-rect-description-background {
+	stroke: #007700;
+	fill: #00770077;
+}
+
+.sb-rect.sb-rect-color-5 .sb-rect-rect,
+.sb-rect.sb-rect-color-5 .sb-rect-description-background {
+	stroke: #0000FF;
+	fill: #0000FF77;
+}
+
+.sb-rect.sb-rect-color-6 .sb-rect-rect,
+.sb-rect.sb-rect-color-6 .sb-rect-description-background {
+	stroke: #000077;
+	fill: #00007777;
+}
+
+.sb-rect.sb-rect-color-7 .sb-rect-rect,
+.sb-rect.sb-rect-color-7 .sb-rect-description-background {
+	stroke: #FFFF00;
+	fill: #FFFF0077;
+}
+
+.sb-rect.sb-rect-color-8 .sb-rect-rect,
+.sb-rect.sb-rect-color-8 .sb-rect-description-background {
+	stroke: #777700;
+	fill: #77770077;
+}
+
+.sb-rect.sb-rect-color-9 .sb-rect-rect,
+.sb-rect.sb-rect-color-9 .sb-rect-description-background {
+	stroke: #FF00FF;
+	fill: #FF00FF77;
+}
+
+.sb-rect.sb-rect-color-10 .sb-rect-rect,
+.sb-rect.sb-rect-color-10 .sb-rect-description-background {
+	stroke: #770077;
+	fill: #77007777;
+}
+
+.sb-rect.sb-rect-color-11 .sb-rect-rect,
+.sb-rect.sb-rect-color-11 .sb-rect-description-background {
+	stroke: #00FFFF;
+	fill: #00FFFF77;
+}
+
+.sb-rect.sb-rect-color-12 .sb-rect-rect,
+.sb-rect.sb-rect-color-12 .sb-rect-description-background {
+	stroke: #007777;
+	fill: #00777777;
+}
+
+.sb-transform {
+}
+
+.sb-transform .sb-transform-rect1 {
+	fill: #00000000;
+	stroke: #528ada;
+	pointer-events: none;
+}
+
+.sb-transform .sb-transform-rect2 {
+	fill: #00000000;
+	stroke: #FFFFFF;
+	stroke-dasharray: 5px;
+	pointer-events: none;
+}
+
+.sb-transform .sb-transform-resize {
+	fill: #ffffff;
+	stroke: #528ada;
+}
+
+.sb-transform .sb-transform-resize.sb-transform-resize-ne {
+	cursor: sw-resize;
+}
+
+.sb-transform .sb-transform-resize.sb-transform-resize-n {
+	cursor: s-resize;
+}
+
+.sb-transform .sb-transform-resize.sb-transform-resize-nw {
+	cursor: se-resize;
+}
+
+.sb-transform .sb-transform-resize.sb-transform-resize-e {
+	cursor: w-resize;
+}
+
+.sb-transform .sb-transform-resize.sb-transform-resize-w {
+	cursor: e-resize;
+}
+
+.sb-transform .sb-transform-resize.sb-transform-resize-se {
+	cursor: nw-resize;
+}
+
+.sb-transform .sb-transform-resize.sb-transform-resize-s {
+	cursor: n-resize;
+}
+
+.sb-transform .sb-transform-resize.sb-transform-resize-sw {
+	cursor: ne-resize;
+}
